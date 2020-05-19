@@ -38,7 +38,7 @@ test:
 
 
 coverage:
-	pipenv run pytest --cov-report term-missing --cov-report xml --cov=$(PKG) udc_api/tests
+	pipenv run pytest --cov-report term-missing --cov-report xml --cov=$(PKG) src/tests
 
 
 build: clean build-cython clean-modules
