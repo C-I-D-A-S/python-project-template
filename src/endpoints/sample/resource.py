@@ -9,8 +9,8 @@ from endpoints.sample.args import add_post_args
 from endpoints.logging import log_context
 
 
-class SparkTrigger(Resource):
-    """ /trigger/spark handler
+class Sample(Resource):
+    """ /sample/
 
     """
 

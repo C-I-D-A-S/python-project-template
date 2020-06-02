@@ -22,7 +22,7 @@ pipenv install --dev
 
 pre-commit install
 
-pipenv run src/main.py
+pipenv run src/app.py
 ```
 
 ### Running Production
